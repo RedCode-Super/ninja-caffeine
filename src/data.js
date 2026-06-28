@@ -85,12 +85,12 @@ export const drinks = [
     },
   },
 
-  // ── Double (2 shots ≈ 60 ml espresso, ≈ 125 mg caffeine) ──────────────
+  // ── Double (2 shots ≈ 60 ml espresso, ≈ 126 mg caffeine) ──────────────
   {
     id: 'double-espresso',
     name: 'Espresso',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
@@ -104,13 +104,13 @@ export const drinks = [
     id: 'double-americano',
     name: 'Americano',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
       milkMl: 0,
       milkStyle: 'Top with 180 ml hot water',
-      cupSizeMl: 240,
+      cupSizeMl: 300,
       notes: 'Add hot water after espresso to preserve the crema.',
     },
   },
@@ -118,7 +118,7 @@ export const drinks = [
     id: 'double-cappuccino',
     name: 'Cappuccino',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
@@ -132,7 +132,7 @@ export const drinks = [
     id: 'double-latte',
     name: 'Latte',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
@@ -146,7 +146,7 @@ export const drinks = [
     id: 'double-flat-white',
     name: 'Flat White',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
@@ -160,7 +160,7 @@ export const drinks = [
     id: 'double-macchiato',
     name: 'Macchiato',
     category: 'double',
-    caffeineMg: 125,
+    caffeineMg: 126,
     recipe: {
       shots: 2,
       espressoMl: 60,
@@ -182,7 +182,7 @@ export const drinks = [
       espressoMl: 45,
       milkMl: 220,
       milkStyle: 'Steam to 65 °C — extra velvety microfoam',
-      cupSizeMl: 280,
+      cupSizeMl: 300,
       notes: 'Ninja\'s premium latte recipe — richer and smoother than a standard latte.',
     },
   },
@@ -196,7 +196,7 @@ export const drinks = [
       espressoMl: 45,
       milkMl: 130,
       milkStyle: 'Steam to 65 °C — ultra-silky microfoam',
-      cupSizeMl: 180,
+      cupSizeMl: 200,
       notes: 'Denser and more intense than a standard flat white.',
     },
   },
@@ -246,6 +246,6 @@ export const drinks = [
 
 export const categories = [
   { id: 'single', label: 'Single', description: '1 shot · ≈ 30 ml espresso' },
-  { id: 'double', label: 'Double', description: '2 shots · ≈ 60 ml espresso' },
+  { id: 'double', label: 'Double', description: '2 shots · ≈ 60 ml espresso · 126 mg' },
   { id: 'luxe',   label: 'Luxe',   description: 'Ninja specialty recipes' },
 ];
